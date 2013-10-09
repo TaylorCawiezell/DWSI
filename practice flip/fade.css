@@ -1,0 +1,140 @@
+/*------SETUP------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	background: #000;
+}
+
+.nav {
+	width: 100%;
+	margin: 10px;
+	font: 400 30px/187px 'Arvo', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #54c7f9;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: block;
+}
+
+.nav li {
+	margin-right: 40px;
+	display: inline;
+}
+
+/*------CONTAINER------*/
+
+.container {
+	width: 1120px;
+	margin: 0 auto 50px auto;
+}
+
+/*------LIST------*/
+.container ul {
+	list-style-type: none;
+}
+
+.container li {
+	float: left;
+	position: relative;
+	width: 280px;
+	height: 187px;
+	overflow: hidden;
+}
+
+.container li:hover {
+	cursor: pointer;
+}
+
+/*------PARAGRAPH------*/
+.container li p {
+	position: absolute;
+	color: transparent;
+	font: 200 30px/187px 'Arvo', Helvetica, Arial, sans-serif;
+	background: transparent;
+	width: 280px;
+	height: 187px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.container li:hover p {
+	color: white;
+	background: rgba(0,0,0,0.7);
+	z-index: 1;
+}
+
+/*------IMAGES------*/
+.container img {
+	width: 280px;
+	height: 187px;
+	
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.container li:hover img {
+	height: 213px;
+	width: 320px;
+}
+
+/*------MEDIA QUERIES------*/
+@media screen and (max-width: 1120px) {
+	  .container {
+		width: 840px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	  .container {
+		width: 560px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	  .container {
+		width: 280px;
+	}
+}
+
+/*------CLEARFIX------*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    *zoom:1;
+}
