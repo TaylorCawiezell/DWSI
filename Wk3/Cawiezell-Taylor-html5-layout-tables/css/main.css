@@ -1,0 +1,259 @@
+/* Heading colors with border Light blues*/
+body {
+width: 90%;
+margin: 0 auto;
+}
+
+h1, h2 {
+
+color: blue;
+background-color: #3B6FE8;
+background-color: hsla(201, 95%, 55%, 1);
+
+
+}
+
+/* Paragraph colors with border Light Blues*/
+
+p {
+
+color: #ffffff;
+background-color: rgb(78,177,255);
+opacity: 0.6;
+
+
+
+}
+
+
+
+/* List colors background is darker than text*/
+ul {
+
+background-color: black;
+border: 25px solid #665544;
+border-color: lightblue;
+opacity: 0.9;
+}
+
+
+li {
+
+
+color: black;
+
+
+
+}
+
+
+
+/*Text Styling*/
+
+
+p {
+
+
+font: 1.000em 'Poiret One', cursive;
+
+}
+
+h1 {
+text-align: center;
+font: bold 300% 'Montserrat Subrayada', sans-serif;
+text-shadow: 2px 2px 5px #666666;
+}
+
+
+h2 {
+
+font: bold 100% 'Montserrat Subrayada', sans-serif;
+text-align: center;
+}
+
+ul {
+
+font: bold 100% 'VT323', cursive;
+text-align: center;
+
+
+}
+
+a {
+text-decoration: none;
+
+
+
+}
+
+a:hover {
+color: black;
+
+
+
+}
+
+a:active {
+
+color: darkblue;
+
+}
+
+
+a:visited {
+
+color: green;
+
+}
+
+
+/*Borders*/
+
+
+h1, h2{
+
+
+  margin-top: 0.1em;
+  margin-right: 0.2em;
+  margin-bottom: 0.1em;
+  margin-left: 0.2em;
+  border-radius: 10px;
+  overflow: auto;
+  width:100%;
+  margin: 1%;
+  margin-bottom: 1em;
+
+}
+
+
+p.body {
+
+
+padding: 6px 12px 6px 12px;
+border: 1px solid #665544;
+border-radius: 10px;
+float: left;
+position:relative;
+clear:left;
+z-index:100;
+overflow: auto;
+width: 50.3%;
+margin: 1%;
+margin-bottom: 1em;
+
+}
+
+p.heading{
+
+padding: 6px 12px 6px 12px;
+border: 1px solid #665544;
+border-radius: 10px;
+float: left;
+position:relative;
+clear:left;
+z-index:100;
+overflow: auto;
+width: 100%;
+margin: 1%;
+margin-bottom: 1em;
+}
+
+ul {
+
+
+
+border-radius: 10px;
+float: right;
+position:relative;
+clear:left;
+z-index:10;
+overflow: auto;
+width:33.3%;
+margin: 1%;
+margin-bottom: 1em;
+}
+
+li:hover{
+
+
+background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C */
+
+
+}
+
+/* Backgrounds, Icon, and gradient*/
+
+body{
+
+background-image: url("images/background.gif");
+background-repeat: repeat;
+background-position: center;
+}
+
+h2, ul{
+background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+
+}
+
+
+h1{
+
+background-image: url("images/icon.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+
+}
+
+/*Tables*/
+
+table{
+font: bold 100% 'VT323', cursive;
+
+}
+
+
+table{
+
+width: 50%;
+background:linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+border-radius: 10px;
+}
+
+th, td {
+
+padding: 7px 10px 10px 10px;
+border: 1px solid lightblue;
+border-radius: 10px;
+}
+
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 120%;
+border: 1px solid lightblue;
+border-radius: 10px;
+border-spacing:1px;
+text-align: left;
+
+}
+
+
+tr:hover {
+
+background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C */
+
+}
+
+h3{
+color:blue;
+font: bold 100% 'Montserrat Subrayada', sans-serif;
+text-align: center;
+ background:linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+ border-radius: 10px;
+ width:55%;
+  
+
+}
+
+
+
