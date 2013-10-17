@@ -6,7 +6,9 @@ margin: 0 auto;
 
 h1, h2 {
 
-
+color: blue;
+background-color: #3B6FE8;
+background-color: hsla(201, 95%, 55%, 1);
 
 
 }
@@ -16,8 +18,8 @@ h1, h2 {
 p {
 
 color: #ffffff;
-background-color: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
-opacity: 0.5;
+background-color: rgb(78,177,255);
+opacity: 0.6;
 
 
 
@@ -28,16 +30,17 @@ opacity: 0.5;
 /* List colors background is darker than text*/
 ul {
 
-background-color: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+background-color: black;
 border: 25px solid #665544;
-border-color: hsla(201, 95%, 55%, 1);
+border-color: lightblue;
+opacity: 0.9;
 }
 
 
 li {
 
 
-color: lightblue;
+color: black;
 
 
 
@@ -84,7 +87,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: lightblue;
+color: black;
 
 
 
@@ -158,8 +161,7 @@ margin-bottom: 1em;
 ul {
 
 
-border: 25px solid #665544;
-border-color: hsla(201, 95%, 55%, 1);
+
 border-radius: 10px;
 float: right;
 position:relative;
@@ -174,18 +176,34 @@ margin-bottom: 1em;
 li:hover{
 
 
-box-shadow: 0px 5px #000000;
+box-shadow: 0px 5px lightblue;
 display: inline;
 
 }
 
 /* Backgrounds, Icon, and gradient*/
 
-p{
+body{
 
+background-image: url("images/background.gif");
+background-repeat: repeat;
+background-position: center;
+}
+
+h2, ul{
 background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
 
 }
+
+
+h1{
+
+background-image: url("images/icon.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+
+}
+
 
 
 
