@@ -1,0 +1,60 @@
+fieldset{
+
+width:310px;
+margin-top:20px;
+border: 1px solid #ffffff;
+
+}
+
+legend{
+
+font-style: italic;
+color: #666666;
+
+}
+
+.title{
+
+float:left;
+width: 150px;
+clear:left;
+
+}
+
+input{
+
+width:120;
+border: 1px solid #d6d6d6;
+padding: px;
+
+}
+
+input:hover, input:focus{
+
+background-color: #999999;
+
+}
+
+.submit{
+
+width:310px;
+
+}
+
+.button{
+border:1px solid #006633;
+background-color:#009966;
+color: #ffffff;
+padding:5px;
+margin-top: 10px;
+}
+
+.button:hover{
+
+background-color:#00CC33;
+
+}
+
+
+
+
